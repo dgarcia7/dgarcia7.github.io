@@ -25,6 +25,17 @@ body {
 .header-links {
     border: 5px solid yellow;
 }
+.header-links-left {
+    border: 5px solid black;
+    float: left;
+    width: 50%;
+}
+.header-links-right {
+    border: 5px solid green;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
 .header-title {
     border: 5px solid purple;
 }
