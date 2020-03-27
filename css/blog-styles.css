@@ -1,0 +1,61 @@
+/* box sizing, so we dont have to do width+padding+border crap */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* removing irritating space around divs */
+body {
+    margin: 0px;
+}
+
+/* main container for all elements */
+.container {
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+}
+
+/* header */
+.header-container {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    width: 100%;
+    height: 20%;
+}
+.header-links {
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+}
+.header-title {
+    border-width: 5px;
+    border-style: solid;
+    border-color: purple;
+}
+
+/* content */
+.content-container {
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    width: 50%;
+    margin: 0 auto;
+}
+.content-bar {
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    width: 25%;
+    float: left;
+}
+.content-main {
+    border-width: 5px;
+    border-style: solid;
+    border-color: gold;
+    width: 75%;
+    display: inline-block;
+}
