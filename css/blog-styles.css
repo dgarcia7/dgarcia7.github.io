@@ -13,47 +13,47 @@ body {
 
 /* main container for all elements */
 .container {
-    border: 5px solid green;
+    /*border: 5px solid green;*/
 }
 
 /* header */
 .header-container {
-    border: 5px solid red;
+    /*border: 5px solid red;*/
     width: 100%;
     height: 20%;
 }
 .header-links {
-    border: 5px solid yellow;
+    /*border: 5px solid yellow;*/
 }
 .header-links-left {
-    border: 5px solid black;
+    /*border: 5px solid black;*/
     float: left;
     width: 50%;
 }
 .header-links-right {
-    border: 5px solid green;
+    /*border: 5px solid green;*/
     display: inline-block;
     width: 50%;
     text-align: right;
 }
 .header-title {
-    border: 5px solid purple;
+    /*border: 5px solid purple;*/
     text-align: center;
 }
 
 /* content */
 .content-container {
-    border: 5px solid blue;
+    /*border: 5px solid blue;*/
     width: 70%;
     margin: 0 auto;
 }
 .content-bar {
-    border: 5px solid brown;
+    /*border: 5px solid brown;*/
     width: 25%;
     float: left;
 }
 .content-main {
-    border: 5px solid gold;
+    /*border: 5px solid gold;*/
     width: 75%;
     display: inline-block;
 }
