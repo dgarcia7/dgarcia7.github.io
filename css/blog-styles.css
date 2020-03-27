@@ -38,6 +38,7 @@ body {
 }
 .header-title {
     border: 5px solid purple;
+    text-align: center;
 }
 
 /* content */
